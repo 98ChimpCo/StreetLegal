@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB26E9201E5EBDE700E463BC /* Boat.m in Sources */ = {isa = PBXBuildFile; fileRef = EB26E91F1E5EBDE700E463BC /* Boat.m */; };
+		EB26E9231E5EBDFE00E463BC /* Pedestrian.m in Sources */ = {isa = PBXBuildFile; fileRef = EB26E9221E5EBDFE00E463BC /* Pedestrian.m */; };
+		EBAA2A2B1E4D315D000B4DE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAA2A2A1E4D315D000B4DE2 /* main.m */; };
+		EBAA2A331E4D31B9000B4DE2 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAA2A321E4D31B9000B4DE2 /* Vehicle.m */; };
+		EBAA2A361E4D340E000B4DE2 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAA2A351E4D340E000B4DE2 /* Car.m */; };
+		EBAA2A391E4D3499000B4DE2 /* Bicycle.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAA2A381E4D3499000B4DE2 /* Bicycle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EBAA2A251E4D315D000B4DE2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EB26E91E1E5EBDE700E463BC /* Boat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boat.h; sourceTree = "<group>"; };
+		EB26E91F1E5EBDE700E463BC /* Boat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boat.m; sourceTree = "<group>"; };
+		EB26E9211E5EBDFE00E463BC /* Pedestrian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pedestrian.h; sourceTree = "<group>"; };
+		EB26E9221E5EBDFE00E463BC /* Pedestrian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pedestrian.m; sourceTree = "<group>"; };
+		EBAA2A271E4D315D000B4DE2 /* StreetLegal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StreetLegal; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBAA2A2A1E4D315D000B4DE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBAA2A311E4D31B9000B4DE2 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		EBAA2A321E4D31B9000B4DE2 /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		EBAA2A341E4D340E000B4DE2 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		EBAA2A351E4D340E000B4DE2 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		EBAA2A371E4D3499000B4DE2 /* Bicycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bicycle.h; sourceTree = "<group>"; };
+		EBAA2A381E4D3499000B4DE2 /* Bicycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bicycle.m; sourceTree = "<group>"; };
+		EBAA2A3A1E4D3509000B4DE2 /* StreetLegal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreetLegal.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBAA2A241E4D315D000B4DE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBAA2A1E1E4D315D000B4DE2 = {
+			isa = PBXGroup;
+			children = (
+				EBAA2A291E4D315D000B4DE2 /* StreetLegal */,
+				EBAA2A281E4D315D000B4DE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBAA2A281E4D315D000B4DE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBAA2A271E4D315D000B4DE2 /* StreetLegal */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBAA2A291E4D315D000B4DE2 /* StreetLegal */ = {
+			isa = PBXGroup;
+			children = (
+				EBAA2A2A1E4D315D000B4DE2 /* main.m */,
+				EBAA2A3A1E4D3509000B4DE2 /* StreetLegal.h */,
+				EBAA2A311E4D31B9000B4DE2 /* Vehicle.h */,
+				EBAA2A321E4D31B9000B4DE2 /* Vehicle.m */,
+				EBAA2A341E4D340E000B4DE2 /* Car.h */,
+				EBAA2A351E4D340E000B4DE2 /* Car.m */,
+				EBAA2A371E4D3499000B4DE2 /* Bicycle.h */,
+				EBAA2A381E4D3499000B4DE2 /* Bicycle.m */,
+				EB26E91E1E5EBDE700E463BC /* Boat.h */,
+				EB26E91F1E5EBDE700E463BC /* Boat.m */,
+				EB26E9211E5EBDFE00E463BC /* Pedestrian.h */,
+				EB26E9221E5EBDFE00E463BC /* Pedestrian.m */,
+			);
+			path = StreetLegal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBAA2A261E4D315D000B4DE2 /* StreetLegal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBAA2A2E1E4D315D000B4DE2 /* Build configuration list for PBXNativeTarget "StreetLegal" */;
+			buildPhases = (
+				EBAA2A231E4D315D000B4DE2 /* Sources */,
+				EBAA2A241E4D315D000B4DE2 /* Frameworks */,
+				EBAA2A251E4D315D000B4DE2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StreetLegal;
+			productName = StreetLegal;
+			productReference = EBAA2A271E4D315D000B4DE2 /* StreetLegal */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBAA2A1F1E4D315D000B4DE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "98%Chimp";
+				TargetAttributes = {
+					EBAA2A261E4D315D000B4DE2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6X85PLZ26L;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EBAA2A221E4D315D000B4DE2 /* Build configuration list for PBXProject "StreetLegal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EBAA2A1E1E4D315D000B4DE2;
+			productRefGroup = EBAA2A281E4D315D000B4DE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBAA2A261E4D315D000B4DE2 /* StreetLegal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBAA2A231E4D315D000B4DE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB26E9201E5EBDE700E463BC /* Boat.m in Sources */,
+				EBAA2A361E4D340E000B4DE2 /* Car.m in Sources */,
+				EB26E9231E5EBDFE00E463BC /* Pedestrian.m in Sources */,
+				EBAA2A331E4D31B9000B4DE2 /* Vehicle.m in Sources */,
+				EBAA2A2B1E4D315D000B4DE2 /* main.m in Sources */,
+				EBAA2A391E4D3499000B4DE2 /* Bicycle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EBAA2A2C1E4D315D000B4DE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EBAA2A2D1E4D315D000B4DE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EBAA2A2F1E4D315D000B4DE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6X85PLZ26L;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBAA2A301E4D315D000B4DE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6X85PLZ26L;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBAA2A221E4D315D000B4DE2 /* Build configuration list for PBXProject "StreetLegal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAA2A2C1E4D315D000B4DE2 /* Debug */,
+				EBAA2A2D1E4D315D000B4DE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBAA2A2E1E4D315D000B4DE2 /* Build configuration list for PBXNativeTarget "StreetLegal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAA2A2F1E4D315D000B4DE2 /* Debug */,
+				EBAA2A301E4D315D000B4DE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBAA2A1F1E4D315D000B4DE2 /* Project object */;
+}
